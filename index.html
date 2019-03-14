@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8 centre">
+                <h1>Temperature converter</h1> <br>
+                <input type="number" class="zone" name="valeur_de_temperature" id="temp" placeholder="Inserer ici la valeur"> <br><br>
+                <h3>Choisissez votre conversion</h3>
+                <button class="btn btn-success" onclick="kenc()">K --> °C</button>
+                <button class="btn btn-success" onclick="cenk()">°C --> K</button>
+                <button class="btn btn-success" onclick="kenf()">K --> °F</button>
+                <button class="btn btn-success" onclick="fenk()">°F --> K</button><br><br>
+                <b class="result" id="resultat">Resultat</b><b class="result" id="resultat1"></b>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+    
+                </div>
+                <div class="col-md-8">
+                    <footer>
+                        <div>
+                            <h6 class="note">N.B :</h6><br>
+                            - Inserer dans le zone de saisi la valeur de K, °C ou °F.
+                            <table>
+                                <tr>
+                                    <td>- Signification :</td><td> &nbsp; K --> Kalvins</td>
+                                </tr>
+                                <tr>
+                                    <td></td><td>°C --> Degrés celsius</td>
+                                </tr>
+                                <tr>
+                                    <td></td><td>°F --> Fahrenheit</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </footer>
+                </div>
+                <div class="col-md-2">
+    
+                </div>
+            </div>
+        </div>
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="temperature.js"></script>
+</body>
+</html>

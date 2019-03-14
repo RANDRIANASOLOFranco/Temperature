@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine !important;
+}
+.centre{
+    margin-top: 50px;
+    text-align: center;
+}
+h1{
+    color: red !important;
+    border: 2px solid goldenrod;
+    border-radius: 7px;
+    width: 800px;
+    height: 90px;
+    padding: 20px;
+}
+.zone{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    border-color: darkorchid;
+}
+h3{
+    color:rgb(893, 24, 207);
+}
+.result{
+    font-size: 30px;
+    background-color: rgb(193, 134, 207);
+}
+footer{
+    background: linear-gradient(rgb(182, 155, 175), rgb(121, 153, 163));
+    margin-block-start: 70px;
+    width: 110%;
+    height: 165px;
+    margin-top: 110px;
+}
+.note{
+    text-align: center;
+}
